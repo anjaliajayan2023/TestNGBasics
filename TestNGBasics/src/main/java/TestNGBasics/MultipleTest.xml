@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MulitipleTest">
+	<test name="Test1">
+		<classes>
+			<class name="TestNGBasics.AnnotationsExample"></class>
+			<class name="TestNGBasics.RunDataProvider"></class>
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="TestNGBasics.WindowExample"></class>
+		</classes>
+	</test>
+</suite>
